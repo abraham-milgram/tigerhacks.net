@@ -1,0 +1,24 @@
+html{
+    padding: 0;
+    background-color: aqua;
+    font-family: m;
+}
+body{
+    margin: 0 0 0 0;
+    background-color: green;
+}
+.row{
+    display: flex;
+    height: 100vh;
+}
+.column{
+width: 50%;
+display: flex;
+align-items: center;
+justify-content: center;
+height: 100vh;
+}
+.main_info p{
+    background-color: aqua;
+    margin: 0 2% 2% 2%;
+}
