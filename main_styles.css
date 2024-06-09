@@ -1,11 +1,14 @@
 html{
     padding: 0;
-    background-color: aqua;
-    font-family: m;
+    background-color: rgb(241, 238, 229);
+    /* background-color: aqua; */
 }
 body{
     margin: 0 0 0 0;
-    background-color: green;
+    /* background-color: green; */
+    font-family:"Montserrat",sans-serif;
+    width: 80vw;
+    margin: auto;
 }
 .row{
     display: flex;
@@ -27,6 +30,42 @@ height: 100vh;
 }
 .main_info p{
     font-size: 150%;
-    background-color: aqua;
+    /* background-color: aqua; */
     margin: 0;
+}
+.main_info .Title{
+    font-size: 350%;
+    font-weight: 500;
+    margin-bottom: 1%;
+    text-decoration: underline;
+    text-decoration-color: orange;
+}
+.main_info .Subtitle{
+    font-size: 190%;
+}
+.main_info .words{
+    font-size: 150%;
+    margin-top: 1%;
+    font-style: italic;
+}
+.main_nav ul{
+    list-style-type: none;
+    font-size: 120%;
+    margin: 0;
+}
+.main_nav ul li{
+    margin-bottom: 4%;
+}
+.main_nav ul li:last-child{
+    margin-bottom: 0;
+}
+.main_nav ul li a{
+    text-decoration: none;
+    font-weight: 400;
+    color: black;
+}
+.main_nav ul li a:hover{
+    text-decoration: underline;
+    text-decoration-color: orange ;
+    /* color: aqua; */
 }
