@@ -15,8 +15,9 @@ document.addEventListener("DOMContentLoaded", function() {
         if (dx === 1 && x + phraseRect.width + margin >= containerRect.width) {
             dx = 0;
             dy = 1;
-            phrase.style.whiteSpace = 'nowrap';
-            phrase.textContent = 'tiger hacks';
+
+            phrase.style.whiteSpace = 'pre';
+            phrase.textContent = 't\ni\ng\ne\r\nh\na\nc\nk\ns';
         } else if (dy === 1 && y + phraseRect.height + margin >= containerRect.height) {
             dx = -1;
             dy = 0;
@@ -25,8 +26,8 @@ document.addEventListener("DOMContentLoaded", function() {
         } else if (dx === -1 && x <= margin) {
             dx = 0;
             dy = -1;
-            phrase.style.whiteSpace = 'pre';
-            phrase.textContent = 't\ni\ng\ne\r\nh\na\nc\nk\ns';
+            phrase.style.whiteSpace = 'nowrap';
+            phrase.textContent = 'tiger hacks';
         } else if (dy === -1 && y <= margin) {
             dx = 1;
             dy = 0;
