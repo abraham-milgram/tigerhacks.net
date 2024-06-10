@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tigerhacks</title>
     <link rel="stylesheet" href="../../styles/main_styles.css">
+    <link rel="stylesheet" href="../../styles/transitions.css">
 
     <!-- poppins -->
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Poppins:700,500,300,400">
@@ -20,6 +21,16 @@
 </head>
 <body>
 
+    <div class="transition transition-2 is-active">
+        <span class="load"></span>
+    </div>
+
+    <div class="mobile_warning" display="none">
+        <div>
+            This site can only be viewed from a desktop for now. 
+        </div>
+    </div>
+
     <section class="row">
         <div class="column_1">
             <div class="main_info">
@@ -30,7 +41,7 @@
                 <p class="Subtitle">2023 Results:</p>
                 <p class="text">Results from the 2023 contest can be seen below, and also can be accessed <a href="https://drive.google.com/file/d/1WLzv5odA55kuEzCtojmYI-fJVrxQ-nxp/view">here.</a></p>
                 <br>
-                <iframe src="https://drive.google.com/file/d/1WLzv5odA55kuEzCtojmYI-fJVrxQ-nxp/preview" width="100%" height="340" allow="autoplay"></iframe>
+                <iframe src="https://drive.google.com/file/d/1WLzv5odA55kuEzCtojmYI-fJVrxQ-nxp/preview" width="100%" height="340" frameborder="0" allow="autoplay"></iframe>
             </div>
         </div>
         <div class="column_2">
@@ -38,45 +49,46 @@
 
                 <ul>
                     <li>
-                        <a href="../../index.html">
+                        <a class="navlink" href="../../index.html">
                             Home
                         </a>
                     </li>
                     <li>
-                        <a href="/pages/about/">
+                        <a class="navlink" href="/pages/about/">
                             About
                         </a>
                     </li>
                     <li>
-                        <a href="../registration/">
+                        <a class="navlink" href="../registration/">
                             Registration
                         </a>
                     </li>
                     <li>
-                        <a href="../rules/">
+                        <a class="navlink" href="../rules/">
                             Rules
                         </a>
                     </li>
                     <li>
-                        <a href="../prior_questions/">
+                        <a class="navlink" href="../prior_questions/">
                             Prior Questions
                         </a>
                     </li>
                     <li>
-                        <a href="../Results/">
+                        <a class="navlink" href="../Results/">
                             Results
                         </a>
                     </li>
                     <li>
-                        <a href="../Photos/">
+                        <a class="navlink" href="../Photos/">
                             Photos
                         </a>
                     </li>
                 </ul>
-
             </div>
         </div>
     </section>
+
+    <script src="../../js/main.js"></script>
 
 </body>
 </html>

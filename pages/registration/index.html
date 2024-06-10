@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tigerhacks</title>
     <link rel="stylesheet" href="../../styles/main_styles.css">
+    <link rel="stylesheet" href="../../styles/transitions.css">
 
     <!-- poppins -->
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Poppins:700,500,300,400">
@@ -19,6 +20,16 @@
 
 </head>
 <body>
+
+    <div class="transition transition-2 is-active">
+        <span class="load"></span>
+    </div>
+    
+    <div class="mobile_warning" display="none">
+        <div>
+            This site can only be viewed from a desktop for now. 
+        </div>
+    </div>
 
     <section class="row">
         <div class="column_1">
@@ -36,37 +47,37 @@
 
                 <ul>
                     <li>
-                        <a href="../../">
+                        <a class="navlink" href="../../index.html">
                             Home
                         </a>
                     </li>
                     <li>
-                        <a href="../about/">
+                        <a class="navlink" href="/pages/about/">
                             About
                         </a>
                     </li>
                     <li>
-                        <a href="/pages/registration/">
+                        <a class="navlink" href="../registration/">
                             Registration
                         </a>
                     </li>
                     <li>
-                        <a href="../rules/">
+                        <a class="navlink" href="../rules/">
                             Rules
                         </a>
                     </li>
                     <li>
-                        <a href="../prior_questions/">
+                        <a class="navlink" href="../prior_questions/">
                             Prior Questions
                         </a>
                     </li>
                     <li>
-                        <a href="../Results/">
+                        <a class="navlink" href="../Results/">
                             Results
                         </a>
                     </li>
                     <li>
-                        <a href="../Photos/">
+                        <a class="navlink" href="../Photos/">
                             Photos
                         </a>
                     </li>
@@ -75,6 +86,8 @@
             </div>
         </div>
     </section>
+
+    <script src="../../js/main.js"></script>
 
 </body>
 </html>
